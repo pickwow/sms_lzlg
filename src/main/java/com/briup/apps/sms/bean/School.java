@@ -4,55 +4,41 @@ package com.briup.apps.sms.bean;
  * */
 public class School {
 	private Long id;
-	private String realname;
-	private String telephone;
-	private String password;
-	private String student_no;
-	private String gender;
-	private Long clazz_id;
-	
+	private String name;
+	private String description;
+	private String tel;
+	private String address;
 	public Long getId() {
 		return id;
 	}
 	public void setId(Long id) {
 		this.id = id;
 	}
-	public String getRealname() {
-		return realname;
+	public String getName() {
+		return name;
 	}
-	public void setRealname(String realname) {
-		this.realname = realname;
+	public void setName(String name) {
+		this.name = name;
 	}
-	public String getTelephone() {
-		return telephone;
+	public String getDescription() {
+		return description;
 	}
-	public void setTelephone(String telephone) {
-		this.telephone = telephone;
+	public void setDescription(String description) {
+		this.description = description;
 	}
-	public String getPassword() {
-		return password;
+	public String getTel() {
+		return tel;
 	}
-	public void setPassword(String password) {
-		this.password = password;
+	public void setTel(String tel) {
+		this.tel = tel;
 	}
-	public String getStudent_no() {
-		return student_no;
+	public String getAddress() {
+		return address;
 	}
-	public void setStudent_no(String student_no) {
-		this.student_no = student_no;
+	public void setAddress(String address) {
+		this.address = address;
 	}
-	public String getGender() {
-		return gender;
-	}
-	public void setGender(String gender) {
-		this.gender = gender;
-	}
-	public Long getClazz_id() {
-		return clazz_id;
-	}
-	public void setClazz_id(Long clazz_id) {
-		this.clazz_id = clazz_id;
-	}
+	
 	
 	
 }
