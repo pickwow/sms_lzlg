@@ -13,4 +13,7 @@ public interface SchoolDao {
 		
 	// 更新
 	void update(School school);
+	
+	// 通过ID删除
+	void deleteById(long id);
 }
